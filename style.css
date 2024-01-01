@@ -1,0 +1,233 @@
+body{
+    margin:0;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.nav-bar{
+    display:flex;
+    margin:20px 0;
+    padding:10px 200px;
+    letter-spacing: 1.3px;
+    border-bottom: solid 3px;
+    border-bottom-color: #dcdcdc;
+    justify-content: space-between;
+}
+
+.header-left svg{
+    height:50px;
+    width:auto;
+    padding-right:15px;
+}
+
+.header-left,.header-right{
+    display:flex;
+    align-items:center; 
+}
+
+.header-left div{
+    padding:10px;
+    text-transform:uppercase;
+    font-weight: 600;   
+}
+
+.header-left div:hover{
+    color:#00754a;
+}
+
+.header-right svg{
+    height:20px;
+    width:auto;
+}
+
+.header-right div{
+    padding:10px;
+    justify-content: center;
+    font-size:12px;
+    margin-right:5px;
+}
+
+.find-a-store{
+    display:flex;
+    margin-right:10px;
+    font-weight:bold;
+}
+
+.find-a-store svg{
+    height:25px !important;
+}
+
+.join-now,.sign-in{
+    display:flex;
+    font-weight:bold;
+    border:solid 2px;
+    align-items:center;
+    border-radius:25px;
+    height:10px;
+    border-color:black;
+}
+
+.join-now{
+    background:#000000;
+    color:#ffffff;
+}
+
+.join-now:hover{
+    background:rgba(0,0,0,0.7);
+}
+
+.sign-in:hover{
+    background:rgba(0,0,0,0.1);
+}
+
+.starbuck-rewards-offers{
+    display:flex;
+    width:100%;
+    padding:10px;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    margin:20px;
+    display:flex;
+    /* background:#f0d0cb; */
+    height:700px;
+    width:70%;
+}
+
+.description{
+    font-size:25px;
+    width:60%;
+    text-align: center;
+    margin-top:10px;
+    font-weight:500;
+}
+
+.game,.holiday-offer,.gift-card-join,.starbucks-film,.mocha-merriment,.mobile-app-ordering,.English-muffin{
+    display:flex;
+    padding:20px;
+    margin:10px;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+
+.join-free{
+    display:flex;
+    margin-top:20px;
+    width:100px;
+    justify-content: center;
+    border:solid 1px;
+    border-radius:20px;
+    font-weight:600;
+    padding:8px;
+}
+
+.join-free:hover{
+    background:rgba(0,0,0,0.1)
+}
+
+.main-header{
+    font-size:50px;
+    text-align:center;
+    margin-top:10px;
+    font-weight:600;
+    letter-spacing:2px;
+    line-height:1.2;
+}   
+
+.starbucks-rewards img{
+    height:700px;
+    width:700px;    
+}
+
+.bottom-container{
+    display:flex;
+    flex-direction:column;
+    font-size: 13px;
+    justify-content:center;
+    align-items: center;
+    height:auto;
+    border-bottom:solid 3px;
+    border-color: #dcdcdc;
+    margin:30px 0;
+}
+
+.starbucks-com-rewards,.copy-right,.bottom-text{
+    display:flex;
+    font-size:13px;
+    width:600px;
+    margin:15px;
+    padding:20px;
+    line-height: 23.4px;
+    justify-content: center;
+    font-weight:lighter;
+}   
+
+.details{
+    display:flex;
+    gap:60px;
+    font-size:20px;
+    line-height:50px;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font: weight 500px;
+    justify-content: center;
+}
+.details li{
+    list-style: none;
+    color:#727272;
+    font-size:15px;
+    line-height:50px;
+    font-weight:lighter;
+}
+
+.details li:hover{
+    color:rgba(0,0,0,0.87)
+}
+.footer{
+    display:flex;
+    justify-content: center;  
+    margin:10px;
+}
+
+.footer-block{
+    display:flex;
+    flex-direction:column;
+    margin:20px;
+    padding:10px;
+    width:1300px;
+    border-top:solid 3px;
+    border-color:#dcdcdc;
+}
+
+.social-networks svg{
+    padding:12px;
+}
+
+.guide{
+    display:flex;
+    margin:20px;
+    font-size:14px;
+    font-weight:400;
+    flex-direction:row;
+    gap:20px;
+}
+
+.guide-topics{
+    line-height:21px;
+    padding-right:30px;
+    border-right:solid 1px;
+}
+
+.guide-topics:hover{
+    text-decoration:underline;
+}
+
+.bottom-copyright{
+    margin:10px;
+    padding:10px;
+    font-size:14px;
+}
+
+
